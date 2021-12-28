@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+.displayclass{
+    display: none;
+}}
+.btnF{
+    color: #f60606;
+    background-color: #f89fb5;
+}
+.btnS{
+    background-color: #CFEAFF;
+}
+#btn-1{
+    background-color: #008FEE;
+}
+#btn-2{
+    background-color: #008FEE;
+}
+#btn-3{
+}
+#btn-4{
+    background-color: #FFA620;
+}
+#btn-5{
+    background-color: #CFEAFF;
+}
+#btn-6{
+    background-color: #CFEAFF;    
+}
+#btn-1:hover{
+    background-color: #84b1cf;
+}
+#btn-2:hover{
+    background-color: #84b1cf;
+}
+#btn-3:hover{
+}
+#btn-4:hover{
+    background-color: #d8be98;
+}
+#btn-5:hover{
+    background-color: #4d687c;
+}
+#btn-6:hover{
+    background-color: #4d687c;    
+}
+#date{
+    background-color:#CFEAFF ;
+}
+#signout{
+    color: #FF4141;
+}
