@@ -2,12 +2,22 @@
 .displayclass{
     display: none;
 }}
-.btnF{
-    color: #f60606;
-    background-color: #f89fb5;
+.closebtn{
+    background-color: #FFD9D9;
+    padding-bottom: 3px;
 }
+.btnF{
+    color: #FE6262;
+    background-color: #FDCDCD;
+}
+.Pbtn{
+    color: #B26FFF;
+    background-color: #EAD8FF;
+}
+
 .btnS{
-    background-color: #CFEAFF;
+    color: #6ADEAB;
+    background-color: #CDF4E3;
 }
 #btn-1{
     background-color: #008FEE;
@@ -16,12 +26,16 @@
     background-color: #008FEE;
 }
 #btn-3{
+    color: green;
+    background-color: #BAFFE1;
 }
 #btn-4{
-    background-color: #FFA620;
+color: #ffa620;
+background-color: #FFE4BB;        
 }
 #btn-5{
     background-color: #CFEAFF;
+
 }
 #btn-6{
     background-color: #CFEAFF;    
@@ -35,10 +49,12 @@
 #btn-3:hover{
 }
 #btn-4:hover{
-    background-color: #d8be98;
+    background-color: #FFAE17;
+    color: white;
 }
 #btn-5:hover{
-    background-color: #4d687c;
+    background-color: #0093FF;
+    color: white;
 }
 #btn-6:hover{
     background-color: #4d687c;    
@@ -48,4 +64,47 @@
 }
 #signout{
     color: #FF4141;
+    background-color: #FFD9D9;
 }
+
+#signout:hover{
+    background-color: #FF3A39;
+    color: white;
+}
+
+.scroll {
+    
+    overflow-y: scroll;
+    display: inline-block;
+
+}
+      
+    .inner{
+      height: 300%;
+      width: 100%;
+      content: '.';
+    }
+    
+   
+   ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+      
+    }
+    ::-webkit-scrollbar-track {
+      border-radius: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 12px;
+      background: rgba(0,0,0,0.1);
+    }
+    ::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+      background: rgba(0,0,0,0.2);
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background: rgba(0,0,0,0.4);
+    }
+    ::-webkit-scrollbar-thumb:active{
+        background: rgba(0,0,0,.9);
+    }

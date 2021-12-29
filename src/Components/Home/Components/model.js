@@ -6,7 +6,6 @@ export default function Index({setshowModal}) {
   return (
     <>
         <>
-        <div className="newdev">hello</div>
           <div
             className="justify-center items-center  flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
@@ -19,142 +18,159 @@ export default function Index({setshowModal}) {
                   <h3 className=" ">
                   Candidate Varification
                   </h3>
-                  <button className="rounded  px-2 text-red-500"
+                  <button className="rounded closebtn px-2 text-red-500"
                     onClick={() => setshowModal(false)}
                   >
                       × 
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative flex ">
+                <div className="relative flex px-5 ">
                
                 
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col">
+                <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-2   flex flex-col ">
                      <h1 className="2xl:font-bold md:font-medium  text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium ">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  text-sm rounded-lg " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-SBtn rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF bg-HeadBtn  text-xs rounded-lg " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1  btnS rounded-lg text-xs ">Pasue</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-sm " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF   rounded-lg text-xs " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF   rounded-lg text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between ml-12  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
                          </div>
                      </div>
                      
                   </div>
 
                   {/* 2 */}
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col">
+                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-3  flex flex-col pl-3 pr-6">
                      <h1 className="2xl:font-bold md:font-medium  text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium ">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
-                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-sm rounded-lg " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-SBtn rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-xs rounded-lg " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
+                             
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-sm " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-xs " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
-                         <div className="flex  justify-between ml-12  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm">Pasue</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
+                         <div className="flex  justify-between   ">
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      
                   </div>
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col">
+                  {/* 3 */}
+                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col pl-3 pr-6">
                      <h1 className="2xl:font-bold md:font-medium  text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium ">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
-                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-sm rounded-lg " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-SBtn rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-xs rounded-lg " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
+                             
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-sm " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-xs " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
-                         <div className="flex  justify-between ml-12  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm">Pasue</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
+                         <div className="flex  justify-between   ">
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      
                   </div>
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col">
+                  {/* 4 */}
+                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll scroll myscroll rounded mx-4 flex flex-col px-3">
                      <h1 className="2xl:font-bold md:font-medium  text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium ">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF bg-HeadBtn  text-sm rounded-lg " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-SBtn rounded-lg text-sm ">Pasue</div>
+                             
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
+                             
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF   rounded-lg text-sm " >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                            
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
                          <div className="flex  justify-between  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm ">Pasue</div>
+                            
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      <div className="flex justify-between items-center mt-2  ">
-                         <div className="2xl:text-sm md:text-xs 2xl:font-bold md:font-medium">ST23942</div>
-                         <div className="flex  justify-between ml-12  ">
-                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-sm" >Take</div>
-                             <div className="2xl:px-3 px-2 py-0.5 ml-1 bg-green-200 rounded-lg text-sm">Pasue</div>
+                         <div className="2xl:text-sm md:text-xs 2xl:font-bold mr-4 md:font-medium">ST23942</div>
+                         <div className="flex  justify-between   ">
+                           
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
                          </div>
                      </div>
                      
