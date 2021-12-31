@@ -242,7 +242,7 @@ background-color: #FFE4BB;
         
          }
 
-         @media (max-width:400px) {
+         @media (max-width:514px) {
             .icon{
                 font-size: xx-small;
                 padding:6px !important;
