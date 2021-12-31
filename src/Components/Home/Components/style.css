@@ -238,4 +238,87 @@ background-color: #FFE4BB;
 
         }
 
-    }
+
+        
+         }
+
+         @media (max-width:400px) {
+            .icon{
+                font-size: xx-small;
+                padding:6px !important;
+                text-align: center;
+                vertical-align: middle;
+            }
+            #btn-1 {
+                font-size: xx-small;
+                width: 80px;
+                padding:0px !important;
+                text-align: center;
+                vertical-align: middle;
+            }
+            #btn-2 {
+                font-size: xx-small;
+                width: 80px;
+                padding:0px !important;
+                text-align: center;
+                vertical-align: middle;
+            }
+            #btn-3div{
+                margin-left: 3px;
+                font-size: xx-small;
+                width: 100px !important; 
+                
+            }
+            #btn-3{
+                font-size: xx-small;
+                padding: 0 5px !important;
+                
+            }
+            #time span{
+                font-size: xx-small;
+                width: 50px !important;
+                height: 20px !important;
+                line-height: 0px !important;
+                display: none;
+            }
+    
+            #btn-4{
+                font-size: x-small;
+                padding: 5px 10px !important;
+            }
+    
+            #btn-5{
+                font-size: x-small;
+                padding: 5px 10px !important;
+                margin-left: 3px;
+            }
+            #date{
+                padding: 10px 0px !important;
+                height: 50px;
+                align-self: center;
+            }
+            #signout{
+                padding: 5px 0px !important;
+                height: 30px !important;
+                width: 100px;
+                border-radius: 5px !important;
+                vertical-align: center;
+                align-self: center;
+            }
+            #btn-6{
+            width: 130px !important;
+            padding: 0 !important;
+            }
+            #head{
+                font-size: x-small;
+                padding: 0;
+    
+            }
+            #candidates div{
+                font-size: x-small;
+                padding: 0px 0px !important;
+                height: 10px !important;
+    
+            }
+    
+        }
