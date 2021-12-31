@@ -7,9 +7,9 @@ export default function Index({setshowModal}) {
     <>
         <>
           <div
-            className="justify-center items-center  flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+            className="  flex justify-center  items-center  overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-auto 2xl:my-6 md:my-2 mx-auto ">
+            <div className="relative w-auto  2xl:my-6 md:my-2 mx-auto ">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}

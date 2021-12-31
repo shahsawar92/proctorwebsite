@@ -1,8 +1,9 @@
 import React from 'react'
 import {BsAward,BsFillCheckCircleFill} from 'react-icons/bs'
-import {MdOutlineNotificationsActive} from 'react-icons/md'
+import {MdCameraswitch, MdOutlineNotificationsActive} from 'react-icons/md'
 import {GoRepoForcePush} from 'react-icons/go'
-import {AiOutlineEye} from 'react-icons/ai'
+import {FaEye} from 'react-icons/fa'
+
 import '../style.css'
 import book from '../../../images/book.png'
 import profile from '../../../images/profile.png'
@@ -18,7 +19,10 @@ export default function Card2() {
                     <div className='flex '>
 
                         <div className=' text-gray-600 font-bold text-xs flex flex-col mr-4'> <div>Proctor eyes</div>
-                         <div className='text-black self-center'> <AiOutlineEye  /></div> 
+                         <div className='text-black flex flex-row self-center'> 
+                         <FaEye size={16} color='blue'  /> &nbsp;{' x '}&nbsp;
+                         <div className='font-light ' style={{fontSize:0.2-'rem'}}>  2 </div>
+                         </div> 
                         </div>
 
                         <div className='text-gray-600 font-bold text-xs flex flex-col'> 
@@ -31,6 +35,7 @@ export default function Card2() {
                 <div className="relative flex flex-col">
                     <img  className='h-24 w-full self-center ' src={profile} alt="profile" />
                     <img className='h-24 w-full  self-center' src={book} alt="books" />
+                    <div className='place-self-end py-2 -mt-8 pr-2 text-green-900 '><MdCameraswitch /></div>
                 </div>
   
      
