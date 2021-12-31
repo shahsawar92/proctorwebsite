@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
 .displayclass{
     display: none;
 }}
@@ -107,4 +107,135 @@ background-color: #FFE4BB;
     }
     ::-webkit-scrollbar-thumb:active{
         background: rgba(0,0,0,.9);
+    }
+
+    @media (min-width:641px) and (max-width:860px){
+        .icon{
+            font-size: xx-small;
+            padding:5px 0px !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #btn-1 {
+            font-size: xx-small;
+            width: 100px;
+            padding:5px 3px !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #btn-2 {
+            font-size: xx-small;
+            width: 100px;
+            padding:5px 3px !important;
+            text-align: center;
+            margin-left: 2px;
+        }
+        #btn-3div{
+            margin-left: 3px;
+            font-size: xx-small;
+            width: 100px !important; 
+            
+        }
+        #btn-3{
+            font-size: xx-small;
+            padding: 0 5px !important;
+            
+        }
+        #time span{
+            font-size: xx-small;
+            width: fit-content;
+        }
+
+        #btn-4{
+            font-size: x-small;
+            padding: 5px 10px !important;
+        }
+
+        #btn-5{
+            font-size: x-small;
+            padding: 5px 10px !important;
+            margin-left: 3px;
+        }
+
+        #btn-6{
+        width: 130px !important;
+        padding: 0 !important;
+        }
+        #head{
+            font-size: x-small;
+            padding: 0;
+
+        }
+        #candidates div{
+            font-size: x-small;
+            padding: 0px 0px !important;
+            height: 10px !important;
+
+        }
+
+    }
+    @media (min-width:861px) and (max-width:1200px){
+        .icon{
+            font-size: x-small;
+            padding:2px 0px !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #btn-1 {
+            font-size: x-small;
+            width: 140px;
+            padding:5px 6px !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #btn-2 {
+            font-size: x-small;
+            width: 140px;
+            padding:5px 6px !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #btn-3div{
+            
+            font-size: x-small;
+            width: 140px !important; 
+            
+        }
+        #btn-3{
+            font-size: xx-small;
+            padding: 0 5px !important;
+            
+        }
+        #time span{
+            font-size: xx-small;
+            width: fit-content;
+        }
+
+        #btn-4{
+            font-size: x-small;
+            padding: 5px 10px !important;
+        }
+
+        #btn-5{
+            font-size: x-small;
+            padding: 5px 10px !important;
+            margin-left: 3px;
+        }
+
+        #btn-6{
+        width: 130px !important;
+        padding: 0 !important;
+        }
+        #head{
+            font-size: x-small;
+            padding: 0;
+
+        }
+        #candidates div{
+            font-size: x-small;
+            padding: 0px 0px !important;
+            height: 10px !important;
+
+        }
+
     }
