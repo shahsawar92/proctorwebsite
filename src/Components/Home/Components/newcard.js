@@ -14,7 +14,7 @@ export default function Card2() {
     <div className="bg-white border-2  drop-shadow-2xl shadow-2xl px-5  blurclass shadow-pink-600 my-6 pb-2 w-auto justify-center h-auto items-center overflow-hidden md:max-w-sm rounded-lg  ring-offset-blue-600 mx-auto">
         {/* header */}
 
-                <div className='flex w-60 justify-between py-2'>
+                <div className='flex w-48 sm:w-60 justify-between py-2'>
                     <div className='font-bold text-sm'>STD074895</div>
                     <div className='flex '>
 

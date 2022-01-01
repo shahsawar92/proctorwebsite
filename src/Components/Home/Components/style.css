@@ -1,6 +1,6 @@
 @media only screen and (max-width: 640px) {
 .displayclass{
-    display: none;
+  
 }}
 .closebtn{
     background-color: #FFD9D9;
@@ -110,7 +110,8 @@ background-color: #FFE4BB;
     }
 
     @media (min-width:641px) and (max-width:860px){
-        .icon{
+        
+        /* .icon{
             font-size: xx-small;
             padding:5px 0px !important;
             text-align: center;
@@ -133,7 +134,7 @@ background-color: #FFE4BB;
         #btn-3div{
             margin-left: 3px;
             font-size: xx-small;
-            width: 100px !important; 
+            width: auto !important; 
             
         }
         #btn-3{
@@ -171,7 +172,7 @@ background-color: #FFE4BB;
             padding: 0px 0px !important;
             height: 10px !important;
 
-        }
+        } */
 
     }
     @media (min-width:861px) and (max-width:1200px){
@@ -243,7 +244,44 @@ background-color: #FFE4BB;
          }
 
          @media (max-width:514px) {
-            .icon{
+             #mainModal{
+                 margin-top: 250px;
+             }
+            #btn-1 {
+                font-size: 9px !important;
+                text-align: center;
+                align-self: center;
+            }
+            #btn-2 {
+                font-size: 9px !important;
+            }
+            #btn-3 {
+                font-size: 6px !important;
+            }
+            #btn-4 {
+                font-size: 9px !important;
+            }
+            #btn-5 {
+                font-size: 9px !important;
+            }
+            #btn-6 {
+                font-size: 9px !important;
+                width: 40vh;
+            }
+            #time span{
+                font-size: 10px !important;
+            }
+            #candidates div{
+                font-size: 12px !important;
+            }
+            #head{
+                font-size: 12px !important;
+            }
+            #btn-3div{
+                font-size: 8px !important;
+            }
+            
+            /* .icon{
                 font-size: xx-small;
                 padding:6px !important;
                 text-align: center;
@@ -251,14 +289,16 @@ background-color: #FFE4BB;
             }
             #btn-1 {
                 font-size: xx-small;
-                width: 80px;
+                margin-top: 7px;
+                width: 130px;
                 padding:0px !important;
                 text-align: center;
                 vertical-align: middle;
             }
             #btn-2 {
                 font-size: xx-small;
-                width: 80px;
+                width: 130px;
+                margin-top: 7px;
                 padding:0px !important;
                 text-align: center;
                 vertical-align: middle;
@@ -266,7 +306,7 @@ background-color: #FFE4BB;
             #btn-3div{
                 margin-left: 3px;
                 font-size: xx-small;
-                width: 100px !important; 
+                width:  auto !important; 
                 
             }
             #btn-3{
@@ -279,7 +319,7 @@ background-color: #FFE4BB;
                 width: 50px !important;
                 height: 20px !important;
                 line-height: 0px !important;
-                display: none;
+            
             }
     
             #btn-4{
@@ -306,7 +346,7 @@ background-color: #FFE4BB;
                 align-self: center;
             }
             #btn-6{
-            width: 130px !important;
+            width: auto !important;
             padding: 0 !important;
             }
             #head{
@@ -319,6 +359,6 @@ background-color: #FFE4BB;
                 padding: 0px 0px !important;
                 height: 10px !important;
     
-            }
+            } */
     
         }

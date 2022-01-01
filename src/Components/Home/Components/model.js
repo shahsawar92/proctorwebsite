@@ -6,10 +6,10 @@ export default function Index({setshowModal}) {
   return (
     <>
         <>
-          <div
+          <div 
             className="  flex justify-center  items-center  overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-auto  2xl:my-6 md:my-2 mx-auto ">
+            <div id="mainModal" className="relative w-auto  2xl:my-6 md:my-2 mx-auto ">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
@@ -25,9 +25,7 @@ export default function Index({setshowModal}) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative flex px-5 ">
-               
-                
+                <div className="relative flex flex-col lg:flex-row px-5 ">                
                 <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-2   flex flex-col ">
                      <h1 className="2xl:font-bold md:font-medium text-gray-700 text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
