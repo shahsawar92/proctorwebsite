@@ -6,20 +6,20 @@ import './style.css'
 export default function HeaderTwo({setshowModal}) {
     return (<>
     
-    <div class="grid lg:grid-cols-4 grid-cols-1 gap-4 bg-white mx-2 my-2  pb-3 pt-5 h-auto rounded-lg px-2">
+    <div class="grid lg:grid-cols-5 grid-cols-1 gap-4 bg-white mx-2 my-2  pb-3 pt-5 h-auto rounded-lg px-2">
     <div className='grid grid-cols-2 gap-2  '>
 
-          <div  id="btn-1" className='pointer text-white flex rounded-lg  px-3 self-center justify-between py-2'> 
+          <div  id="btn-1" className='pointer text-white flex rounded-lg  px-3 self-center justify-between py-3'> 
           <div onClick={()=>{setshowModal(true) }}> Candidate varification </div>
           <div className='icon'> <BsFillPatchCheckFill fontSize="1.3em" /></div> 
           </div>
 
-            <div  id="btn-2" className='pointer text-white flex rounded-lg  px-4  self-center justify-between py-2'><div> Proctor Group Chat</div>
+            <div  id="btn-2" className='pointer text-white flex rounded-lg  px-4  self-center justify-between py-3'><div> Proctor Group Chat</div>
             <div className='icon' > <IoMdChatboxes fontSize="1.5em" /></div>
             </div>
            </div>
 
-           <div className='grid grid-cols-4 gap-2 pl-3 lg:pl-0' >
+           <div className='grid grid-cols-4 gap-2 pl-3 lg:pl-0 lg:col-span-2' >
       
             <div id="btn-3div" className='col-start-1 col-end-3 font-medium self-center'>
                 <b>Status</b>: 
