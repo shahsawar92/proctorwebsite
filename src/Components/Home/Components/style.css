@@ -266,10 +266,13 @@ background-color: #FFE4BB;
             }
             #btn-6 {
                 font-size: 9px !important;
-                width: 40vh;
+                width: 33vh;
             }
             #time span{
                 font-size: 10px !important;
+                padding-left: 100px;
+                padding-right: 100px;
+                background-color: white;
             }
             #candidates div{
                 font-size: 12px !important;
