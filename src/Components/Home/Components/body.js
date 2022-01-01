@@ -5,7 +5,7 @@ import Card2 from './newcard'
 export default function Body() {
     
     return (
-        <div className=' bg-white h-2/3 m-3  rounded-lg px-5'>
+        <div className=' bg-white h-2/3 m-2  rounded-lg px-5'>
            
             <div >
                 <div className='inline-block lg:pt-4 lg:pl-10 pt-2 lg:text-xl font-medium'>Exame Room</div>
