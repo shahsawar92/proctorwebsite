@@ -26,10 +26,10 @@ export default function Index({setshowModal}) {
                 </div>
                 {/*body*/}
                 <div className="relative flex flex-col lg:flex-row px-5 ">                
-                <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-2   flex flex-col ">
+                <div className="border p-3 border-BorderClr w-full h-44 overflow-x-hidden overflow-y-scroll myscroll rounded mx-2   flex flex-col ">
                      <h1 className="2xl:font-bold md:font-medium text-gray-700 text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
-                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
+                         <div  className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
                              <div className="2xl:px-3 px-2 py-0.5 btnF bg-HeadBtn  text-xs rounded-lg " >Take</div>
                              <div className="2xl:px-3 px-2 py-0.5 ml-1  btnS rounded-lg text-xs ">Pasue</div>
@@ -56,11 +56,32 @@ export default function Index({setshowModal}) {
                              <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
                          </div>
                      </div>
+                     <div className="flex justify-between items-center mt-2  ">
+                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium">ST23942</div>
+                         <div className="flex  justify-between ml-12  ">
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
+                         </div>
+                     </div>
+                     <div className="flex justify-between items-center mt-2  ">
+                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium">ST23942</div>
+                         <div className="flex  justify-between ml-12  ">
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
+                         </div>
+                     </div>
+                     <div className="flex justify-between items-center mt-2  ">
+                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium">ST23942</div>
+                         <div className="flex  justify-between ml-12  ">
+                             <div className="2xl:px-3 px-2 py-0.5 btnF  rounded-lg  text-xs" >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs">Pasue</div>
+                         </div>
+                     </div>
                      
                   </div>
 
                   {/* 2 */}
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-3  flex flex-col pl-3 pr-6">
+                  <div className="border p-3 border-BorderClr w-full h-44  overflow-x-hidden overflow-y-scroll myscroll rounded mx-3  flex flex-col pl-3 pr-6">
                      <h1 className="2xl:font-bold md:font-medium text-gray-700 text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
                          <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
@@ -98,8 +119,35 @@ export default function Index({setshowModal}) {
                      
                   </div>
                   {/* 3 */}
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col pl-3 pr-6">
+                  <div className="border p-3 border-BorderClr w-full h-44 overflow-x-hidden overflow-y-scroll myscroll rounded mx-4 flex flex-col pl-3 pr-6">
                      <h1 className="2xl:font-bold md:font-medium  text-gray-700 text-base self-center 2xl:mb-9 md:mb-2">New</h1>
+                     <div className="flex justify-between items-center mt-1  ">
+                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
+                         <div className="flex  justify-between   ">
+                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-xs rounded-lg " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
+                             
+                         </div>
+                     </div>
+                     <div className="flex justify-between items-center mt-1  ">
+                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
+                         <div className="flex  justify-between   ">
+                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-xs rounded-lg " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
+                             
+                         </div>
+                     </div>
+                     <div className="flex justify-between items-center mt-1  ">
+                         <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
+                         <div className="flex  justify-between   ">
+                             <div className="2xl:px-3 px-2 py-0.5 bg-HeadBtn btnF text-xs rounded-lg " >Take</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 btnS rounded-lg text-xs ">Pasue</div>
+                             <div className="2xl:px-3 px-2 py-0.5 ml-1 Pbtn rounded-lg text-xs ">History</div>
+                             
+                         </div>
+                     </div>
                      <div className="flex justify-between items-center mt-1  ">
                          <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
@@ -136,7 +184,7 @@ export default function Index({setshowModal}) {
                      
                   </div>
                   {/* 4 */}
-                  <div className="border p-3 border-BorderClr w-full  overflow-x-hidden overflow-y-scroll myscroll rounded mx-2   flex flex-col ">
+                  <div className="border p-3 border-BorderClr w-full h-44  overflow-x-hidden overflow-y-scroll myscroll rounded mx-2   flex flex-col ">
                      <h1 className="2xl:font-bold md:font-medium  text-gray-700 text-base self-center 2xl:mb-9 md:mb-2">New</h1>
                      <div className="flex justify-between items-center mt-1  ">
                          <div className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
