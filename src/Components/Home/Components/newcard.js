@@ -14,7 +14,7 @@ export default function Card2() {
     <div className="bg-white border-2  drop-shadow-2xl shadow-2xl px-5  blurclass shadow-pink-600 my-6 pb-2 w-auto justify-center h-auto items-center overflow-hidden md:max-w-sm rounded-lg  ring-offset-blue-600 mx-auto">
         {/* header */}
 
-                <div className='flex w-48 sm:w-60 justify-between py-2'>
+                <div className='flex w-48 sm:w-60 justify-between py-3'>
                     <div className='font-bold text-sm'>STD074895</div>
                     <div className='flex '>
 
@@ -33,15 +33,15 @@ export default function Card2() {
                 </div>
         {/* images */}
                 <div className="relative flex flex-col">
-                    <img  className='h-24 w-full self-center ' src={profile} alt="profile" />
-                    <img className='h-24 w-full  self-center' src={book} alt="books" />
+                    <img  className='h-28 w-full self-center ' src={profile} alt="profile" />
+                    <img className='h-28 w-full  self-center' src={book} alt="books" />
                     <div className='place-self-end py-2 -mt-8 pr-2 text-green-900 '><MdCameraswitch /></div>
                 </div>
   
      
         {/* footer */}
       
-      <div className="  pt-1  flex justify-between items-center text-gray-700 font-bold text-xs flex-wrap border-t">
+      <div className="  py-3  flex justify-between items-center text-gray-700 font-bold text-xs flex-wrap border-t">
         
                     <div className='bg-blue-200 py-2 px-3 rounded-lg'><BsAward/></div>
                     <div>Ends in: <br /> 1:14 hrs</div>
