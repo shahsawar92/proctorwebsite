@@ -7,7 +7,7 @@ import Index from './Components/model'
 export default function Home() {
     const [showModal, setshowModal] = useState(false)
     return (
-        <div className='bg-gray-300 h-screen pt-4'>
+        <div className='bg-gray-300 h-auto pt-4'>
              {showModal && <Index  setshowModal={setshowModal}/>}
             <HeaderOne />
             <HeaderTwo  setshowModal={setshowModal}/>

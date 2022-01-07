@@ -6,10 +6,10 @@ import './style.css'
 export default function HeaderTwo({setshowModal}) {
     return (<>
     
-    <div class="grid lg:grid-cols-5 grid-cols-1 gap-1 bg-white mx-2 my-2  pb-3 pt-5 h-auto rounded-lg px-2">
+    <div class="grid lg:grid-cols-5 grid-cols-1 gap-1 bg-white mx-2 my-2  pb-3 pt-5  rounded-lg px-2">
     <div className='grid grid-cols-2 gap-1   '>
 
-          <div  id="btn-1" className='pointer text-white flex rounded-lg  px-2 self-center  py-3'> 
+          <div  id="btn-1" className='pointer text-white flex rounded-lg  px-2 self-center justify-between  py-3'> 
           <div onClick={()=>{setshowModal(true) }}> Candidate varification </div>
           <div className='icon'> <BsFillPatchCheckFill fontSize="1.3em" /></div> 
           </div>
