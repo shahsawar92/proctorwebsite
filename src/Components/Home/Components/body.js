@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import Index from './model'
+import React from 'react'
 import Card2 from './newcard'
 
 export default function Body() {
