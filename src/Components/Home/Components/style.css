@@ -1,7 +1,8 @@
 @media only screen and (max-width: 640px) {
-.displayclass{
+    .displayclass{
   
-}}
+    }
+}
 .closebtn{
     background-color: #FFD9D9;
     padding-bottom: 3px;
@@ -49,6 +50,7 @@ background-color: #FFE4BB;
     background-color: #84b1cf;
 }
 #btn-3:hover{
+    
 }
 #btn-4:hover{
     background-color: #FFAE17;
@@ -109,6 +111,16 @@ background-color: #FFE4BB;
     }
     ::-webkit-scrollbar-thumb:active{
         background: rgba(0,0,0,.9);
+    }
+
+    .flex-items{
+        display: flex;
+        justify-content: space-around; 
+        margin: 20px;
+    }
+
+    .border-2{
+        margin-right: 30px;
     }
 
 

@@ -7,47 +7,46 @@ export default function HeaderTwo({setshowModal}) {
     return (<>
     
     <div class="grid lg:grid-cols-5 grid-cols-1 gap-1 bg-white mx-2 my-2  pb-3 pt-5  rounded-lg px-2">
-    <div className='grid grid-cols-2 gap-1   '>
+        <div className='grid grid-cols-2 gap-1   '>
 
           <div  id="btn-1" className='pointer text-white flex rounded-lg  px-2 self-center justify-between  py-3'> 
-          <div onClick={()=>{setshowModal(true) }}> Candidate varification </div>
-          <div className='icon'> <BsFillPatchCheckFill fontSize="1.3em" /></div> 
+            <div onClick={()=>{setshowModal(true) }}> Candidate varification </div>
+            <div className='icon'> <BsFillPatchCheckFill fontSize="1.3em" /></div> 
           </div>
 
-            <div  id="btn-2" className='pointer text-white flex rounded-lg  px-3  self-center justify-between py-3'><div> Proctor Group Chat</div>
+          <div  id="btn-2" className='pointer text-white flex rounded-lg  px-3  self-center justify-between py-3'><div> Proctor Group Chat</div>
             <div className='icon' > <IoMdChatboxes fontSize="1.5em" /></div>
             </div>
-           </div>
+          </div>
 
-           <div className='grid grid-cols-4 gap-2 pl-3 lg:pl-0 lg:col-span-2' >
+        <div className='grid grid-cols-4 gap-2 pl-3 lg:pl-0 lg:col-span-2' >
       
             <div id="btn-3div" className='col-start-1 col-end-3 font-medium self-center'>
                 <b>Status</b>: 
-                <span id="btn-3" style={{backgroundColor:'#54FFB4'}}  className='text-xs font-medium py-1 rounded-lg px-3 ml-2 '> INPROGRESS</span>
-                </div>
+                <span id="btn-3" style={{backgroundColor:'#54FFB4'}}  className='text-xs font-medium py-1 rounded-lg px-3 ml-2 '> IN-PROGRESS</span>
+            </div>
         
             <div id="btn-4" className='text-yellow-900 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:py-3 lg:text-xs px-5  py-2 text-xs  text-center self-center'>Leave</div>
 
-           <div id="btn-5"   className='text-blue-400 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:ml-0 lg:py-3 lg:text-xs px-5  py-2 text-xs text-center self-center'> Break</div>
+            <div id="btn-5"   className='text-blue-400 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:ml-0 lg:py-3 lg:text-xs px-5  py-2 text-xs text-center self-center'> Break</div>
           
-          </div>
+        </div>
           
-          <div id='time' className='2xl:text-sm lg:pt-0 lg:text-center text-gray-700 pl-3 lg:pl-0  text-xs displayclass font-medium' >
+            <div id='time' className='2xl:text-sm lg:pt-0 lg:text-center text-gray-700 pl-3 lg:pl-0  text-xs displayclass font-medium' >
                  <span>Start Time: 800 hrs</span><br />
                  <span>End Time: 1000 hrs</span><br />
                  <span>Buffer Time: 15 mi</span>
-             </div>
+            </div>
 
           
-             <div className=' bg-white lg:px-5 '>
+        <div className=' bg-white lg:px-5 '>
               <div className='flex  lg:place-content-center rounded-lg py-2  px-3    bg-green-200'> <div id='head' className='font-medium text-gray-700  text-center place-self-center border-r pr-3   border-gray-400 '>Head <br /> Count </div> 
-              <span id='candidates' className='pl-3'>
+                <span id='candidates' className='pl-3'>
                      <div className='text-base text-gray-700 '>Candidates: (23 + 05)/40</div>
                      <div className='text-base text-gray-700  '>Proctors: 10/12</div>
-                 </span>
-                 </div>
-               
-             </div>
+                </span>
+              </div>      
+        </div>
   
 
     </div>
