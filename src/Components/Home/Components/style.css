@@ -1,8 +1,4 @@
-@media only screen and (max-width: 640px) {
-    .displayclass{
-  
-    }
-}
+
 .closebtn{
     background-color: #FFD9D9;
     padding-bottom: 3px;
@@ -22,9 +18,11 @@
 }
 #btn-1{
     background-color: #008FEE;
+    z-index: 0 !important;
 }
 #btn-2{
     background-color: #008FEE;
+    z-index: 0 !important;
 }
 #btn-3{
     color: green;
@@ -36,6 +34,8 @@
 color: #ffa620;
 background-color: #FFE4BB;        
 }
+
+
 #btn-5{
     background-color: #CFEAFF;
 
@@ -49,9 +49,7 @@ background-color: #FFE4BB;
 #btn-2:hover{
     background-color: #84b1cf;
 }
-#btn-3:hover{
-    
-}
+
 #btn-4:hover{
     background-color: #FFAE17;
     color: white;
@@ -66,7 +64,7 @@ background-color: #FFE4BB;
 #date{
     background-color:#CFEAFF ;
 }
-#signout{
+#signout {
     color: #FF4141;
     background-color: #FFD9D9;
 }
@@ -76,6 +74,33 @@ background-color: #FFE4BB;
     color: white;
 }
 
+#reject {
+    color: #FF4141;
+    background-color: #FFD9D9;
+}
+
+#reject:hover{
+    background-color: #FF3A39;
+    color: white;
+}
+
+#onhold{
+    color: #DDA24A;
+    background-color: #FFE4BB;        
+    }
+
+#onhold:hover{
+    background-color: #FFAE17;
+    color: white;
+}
+#accept{
+    background-color: #CFEAFF;
+    color: #3A41FF;
+}
+#accept:hover{
+    background-color: #0093FF;
+    color: white;
+}
 .scroll {
     
     overflow-y: scroll;
@@ -100,7 +125,7 @@ background-color: #FFE4BB;
       margin-top: 5px;
       margin-bottom: 5px;
       margin-right: 12px;
-      background: rgba(0,0,0,0.1);
+      background: white
     }
     ::-webkit-scrollbar-thumb{
       border-radius: 10px;
@@ -185,4 +210,107 @@ background-color: #FFE4BB;
          }
 
     }
-   
+
+    .ulclass{
+        font-size: 10px !important;
+    }
+
+    .bg-e{
+        background-color: #EEEEEE;
+    }
+    .chathead{
+        background-color: #D1D5DB;
+    }
+    .bgbluechat{
+        background-color: #008FEE;
+    }
+    .bggreenchat{
+        background-color: #05C873;
+    }
+
+/* ....................................................... */
+
+/* .customcheck {
+    position: relative;
+  }
+  
+  .customcheck input {
+    display: none;
+  }
+  
+  .customcheck input~.checkmark {
+    background: #ee0b0b;
+    width: 15px;
+    display: inline-block;
+    position: relative;
+    height: 15px;
+    border-radius: 2px;
+    vertical-align:middle;
+    margin-right:10px;
+  }
+  
+  .customcheck input~.checkmark:after,
+  .customcheck input~.checkmark:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    left: 6px;
+    top: 4px;
+  }
+  
+  .customcheck input~.checkmark:after {
+    transform: rotate(-45deg);
+    z-index: 1;
+  }
+  
+  .customcheck input~.checkmark:before {
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  
+  .customcheck input:checked~.checkmark {
+    background: #3d8a00;
+    width: 15px;
+    display: inline-block;
+    position: relative;
+    height: 15px;
+    border-radius: 2px;
+  }
+  
+  .customcheck input:checked~.checkmark:after {
+    display: none;
+  }
+  
+  .customcheck input:checked~.checkmark:before {
+    background: none;
+    border: 2px solid #fff;
+    width: 6px;
+    top: 2px;
+    left: 4px;
+    border-top: 0;
+    border-left: 0;
+    height: 9px;
+    top: 2px;
+  } */
+
+ /* .................................................... */
+
+    .disc{
+        font-size: 8px !important;
+        font-weight: 100;
+    }
+    #chattext{
+        font-size: 7px !important;
+        font-weight: 100;
+    }
+    
+    .desc-text{
+        font-size: 9px !important;
+        font-weight: bold !important;
+    }
+    #chattext1{
+        font-size: 12px !important;
+        font-weight: 100;
+    }

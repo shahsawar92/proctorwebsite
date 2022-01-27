@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsAward,BsFillCheckCircleFill} from 'react-icons/bs'
-import {MdCameraswitch, MdOutlineNotificationsActive} from 'react-icons/md'
+import { MdOutlineNotificationsActive} from 'react-icons/md'
 import {GoRepoForcePush} from 'react-icons/go'
 import {FaEye} from 'react-icons/fa'
 import '../style.css'

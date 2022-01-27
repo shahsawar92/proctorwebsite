@@ -3,18 +3,18 @@ import { IoMdChatboxes } from 'react-icons/io';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 import './style.css'
 
-export default function HeaderTwo({setshowModal}) {
+export default function HeaderTwo({setshowModal,setshowModalEachChat}) {
     return (<>
     
     <div class="grid lg:grid-cols-5 grid-cols-1 gap-1 bg-white mx-2 my-2  pb-3 pt-5  rounded-lg px-2">
-        <div className='grid grid-cols-2 gap-1   '>
+        <div className='grid grid-cols-2 gap-1'>
 
           <div  id="btn-1" className='pointer text-white flex rounded-lg  px-2 self-center justify-between  py-3'> 
             <div onClick={()=>{setshowModal(true) }}> Candidate varification </div>
             <div className='icon'> <BsFillPatchCheckFill fontSize="1.3em" /></div> 
           </div>
 
-          <div  id="btn-2" className='pointer text-white flex rounded-lg  px-3  self-center justify-between py-3'><div> Proctor Group Chat</div>
+          <div  onClick={()=>{setshowModalEachChat(true) }} id="btn-2" className='pointer text-white flex rounded-lg  px-3  self-center justify-between py-3'><div> Proctor Group Chat</div>
             <div className='icon' > <IoMdChatboxes fontSize="1.5em" /></div>
             </div>
           </div>
