@@ -1,13 +1,13 @@
 import React from "react";
 import './style.css';
 
-export default function Index({setshowModal}) {
+export default function Index({setshowModal,setshowModalEachChat}) {
   
   return (
     <>
         <>
           <div 
-            className="  flex justify-center  items-center  overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+            className="  flex justify-center  md:items-center  overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
             <div id="mainModal" className="relative w-auto  2xl:my-6 md:my-2 mx-auto ">
               {/*content*/}
@@ -32,7 +32,7 @@ export default function Index({setshowModal}) {
                      <div className="flex justify-between items-center mt-1  ">
                          <div  className="2xl:text-sm md:text-xs text-gray-700 2xl:font-bold mr-4 md:font-medium ">ST23942</div>
                          <div className="flex  justify-between   ">
-                             <button className="2xl:px-3 px-2 py-0.5 ml-1  btnF rounded-lg text-xs" >Take</button>
+                             <button onClick={()=>{setshowModalEachChat(true) }} className="2xl:px-3 px-2 py-0.5 ml-1  btnF rounded-lg text-xs" >Take 1</button>
                              <button className="2xl:px-3 px-2 py-0.5 ml-1  btnS rounded-lg text-xs ">Pasue</button>
                          </div>
                      </div>
