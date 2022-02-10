@@ -1,12 +1,12 @@
 
 import React from "react";
 import '../style.css';
-import Chatbox from '../chat.js'
+import Chatbox from '../Chat/chat.js'
 import DiscriptionProctor from "./DescriptionProctor.js";
 import ProfileImg from "./profileImg";
-import ChatProctor from "../chatProctor";
+import ChatProctor from "../Chat/chatProctor";
 
-export default function ProctorModal({setshowModalProctor}) {
+export default function ProctorModal({setshowModalProctor, setshowCameraModal}) {
   
   return (
     <>
@@ -21,7 +21,7 @@ export default function ProctorModal({setshowModalProctor}) {
                 <div className="flex items-start justify-between 2xl:p-5 px-3 py-2  rounded-t">
 
                   <h3 className="  ">
-                  Candidate spot- Varification
+                  Candidate Spot- Exam Room
                   </h3>
                   <button className="rounded closebtn px-2 text-red-500"
                     onClick={() => setshowModalProctor(false)}
@@ -29,14 +29,14 @@ export default function ProctorModal({setshowModalProctor}) {
                       × 
                   </button>
                 </div>
-                <div className='flex flex-row justify-between mx-3' >
-                <div className=' '>STD0745</div>
+                <div className='flex flex-row justify-between mx-5' >
+                <div className=' mb-5 '>STD0745</div>
                 <div className=' w-9/12 md:w-11/12 mt-3 mx-5 '><hr /> </div>
             </div>
                 {/*body*/}
                                  <div className="relative px-5 grid grid-cols-1 lg:grid-cols-3 gap-8 ">   
                                  <div className="w-80  mb-4"><ProfileImg /></div>
-                                 <div className="w-80 mb-4"><DiscriptionProctor /></div>
+                                 <div className="w-80 mb-4"><DiscriptionProctor setshowCameraModal={setshowCameraModal} /></div>
                                  <div className="w-80 mb-4 rounded-lg"> 
                                  <div className="grid grid-flow-row gap-5">
 

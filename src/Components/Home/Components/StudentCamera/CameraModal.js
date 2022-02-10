@@ -13,16 +13,16 @@ export default function ProctorModal({setshowCameraModal}) {
     <>
         <>
           <div 
-            className="grid justify-center items-center  overflow-x-hidden overflow-y-auto fixed inset-x-5 inset-y-0 z-50 outline-none focus:outline-none"
-          >
-            <div id="mainModal" className="relative w-auto mx-auto">
+            className="grid justify-center items-center  overflow-x-hidden overflow-y-auto fixed inset-x-0 inset-y-0 z-50 outline-none focus:outline-none">
+
+            <div className="relative ">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-auto h-auto bg-white outline-none focus:outline-none">
+              <div className="border-0 rounded-lg  shadow-lg relative flex flex-col bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between 2xl:p-5 px-3 py-2  rounded-t">
 
                   <h3 className="  ">
-                        My Camera      
+                        Student Camera      
                     </h3>
 
                   <button className="rounded closebtn px-2 text-red-500"
@@ -33,12 +33,12 @@ export default function ProctorModal({setshowCameraModal}) {
                 </div>
             
                 {/*body*/}
-                                 <div className="relative w-full h-80 bg-gray-400   ">   
-                                 <img className='rounded-t-lg ' src="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083383__340.jpg" alt="username" />
+                                 <div className="relative sizeClass bg-gray-400">   
+                                 <img className='w-full h-full' src="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083383__340.jpg" alt="username" />
                                   <img className='h-24 w-36 relative bottom-24 rounded-l-lg float-right' src={code} alt="code" /> 
                                    <img className='h-7 w-7 -right-32 -top-10 relative bottom-32 rounded-l-lg float-right' src={cameraicon} alt="" />
                                    </div>
-                                   <div className="w-10 h-10 p-3 ml-2 rounded  absolute  -bottom-4 bg-white ">
+                                   <div className="w-10 h-10 p-3 ml-2 rounded  absolute  bottom-2 bg-white ">
                                    <img src={awardicon} alt='iconaward' />
                                    </div>
                 {/*footer*/}

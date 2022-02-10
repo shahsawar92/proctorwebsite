@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import Body from './Components/body'
-import HeaderOne from './Components/header-1'
-import HeaderTwo from './Components/header-2'
-import Index from './Components/model'
+import HeaderOne from './Components/Headers/header-1'
+import HeaderTwo from './Components/Headers/header-2'
+import Index from './Components/CandidateVerification/model'
 import SubjectModal from './Components/subjectModal';
 // import Chatbox from './Components/chat'
 import ProctorModal from './Components/proctormodal/proctorModal'
@@ -17,13 +17,13 @@ export default function Home() {
     return (
         <div className='bg-gray-300 h-auto pt-4'>
              {showModal && <Index setshowModalEachChat={setshowModalEachChat}  setshowModal={setshowModal}/>}
-             {showModalProctor && <ProctorModal setshowModalProctor={setshowModalProctor}  />}
-             { showModalEachChat && <SubjectModal  setshowModalEachChat={setshowModalEachChat}/>}
+             {showModalProctor && <ProctorModal setshowCameraModal={setshowCameraModal} setshowModalProctor={setshowModalProctor}  />}
+             { showModalEachChat && <SubjectModal     setshowModalEachChat={setshowModalEachChat}/>}
              
              { showCameraModal && <CameraModal  setshowCameraModal={setshowCameraModal}/>}
             <HeaderOne />
-            <HeaderTwo  setshowModal={setshowModal} setshowModalProctor={setshowModalProctor} setshowCameraModal={setshowCameraModal}  />
-            <Body  />
+            <HeaderTwo   setshowModal={setshowModal}   />
+            <Body setshowModalProctor={setshowModalProctor} />
         </div>
     )
 }

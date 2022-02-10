@@ -13,3 +13,32 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+  #attention{
+    background-color: rgb(255, 0, 0);
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #attention:hover{
+    background-color: rgb(255, 75, 75);
+  }
+
+  #accept{
+    background-color: #CFEAFF;
+    color: #3A41FF;
+}
+  #accept:hover{
+    background-color: #0093FF;
+    color: white;
+}
+
+  #camera-btn{
+    background-color: #CFEAFF;
+    color: #3A41FF;
+}

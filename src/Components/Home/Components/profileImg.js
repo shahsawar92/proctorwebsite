@@ -12,10 +12,10 @@ export default function ProfileImg() {
 <img className='h-6 w-6 absolute ' src={camera} alt="" />
 <img className='rounded-t-lg h-full ' src="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083383__340.jpg" alt="username" />
 <img className='h-24 w-36 relative bottom-24 rounded-l-lg right-0 left-44' src={code} alt="code" />
-<img className='h-7 w-7 relative bottom-32 rounded-l-lg left-72' src={cameraicon} alt="" />
+<img className='h-6.5 w-7 relative bottom-32 rounded-l-lg left-72' src={cameraicon} alt="" />
 </div>
 <div className='flex justify-between mt-9'>
- <div id='accept' className=" bg-blue-500  text-xs text-white py-2 px-3   rounded"><img src={awardicon} alt='iconaward' /></div>
+ <div id='camera-align' className=" bg-blue-500  text-xs text-white py-2 px-3   rounded"><img src={awardicon} alt='iconaward' /></div>
  <div>
 <button id='accept' className=" bg-blue-500  text-xs text-white py-2 px-3 ml-2  rounded">
   Accept

@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css';
+import '../style.css';
 import {RiAwardLine} from 'react-icons/ri';
 import {FaAngleUp} from 'react-icons/fa';
-import awardicon from '../../../images/awardicon.png'
+import awardicon from '../../../icons/awardicon-b.png'
 
 
 export default function Chatbox() {
@@ -11,10 +11,10 @@ export default function Chatbox() {
       <div className="min-w-full border rounded-xl   ">
         <div className="block">
           <div className="w-full">
-            <div className="relative flex items-center justify-between px-2 py-1 rounded-t-xl border-b border-gray-200 chathead">
+            <div className="relative flex items-center justify-between px-3 py-1 rounded-t-xl border-b border-gray-200 chathead">
               <div className='text-xs'>Candidate Chat</div>
               <div className='flex text-gray-600 '><img src={awardicon} alt='iconaward' />
-                                <FaAngleUp fontSize="1.3em" />
+                                
               </div>
             </div>
             <div className="relative w-full p-4 overflow-y-auto bg-e  h-20">
@@ -46,7 +46,7 @@ export default function Chatbox() {
             <div className="flex items-center justify-between w-full p-1 border-t rounded-b-xl bg-e">
               <div >
               <input type="text" placeholder="Message"
-                className="w-40 text-xs  inline-block py-1 h-6 pl-4 ml-2 bg-white rounded-full border-none outline-none focus:text-gray-700"
+                className="w-40 text-xs inline-block py-1 h-6 pl-4 ml-2 bg-white rounded-full border-none outline-none focus:text-gray-700"
                 name="message" required />
                 <button className='bgbluechat ml-2 rounded-full p-1' type="submit">
                 <svg className="w-3 h-3  text-gray-500 origin-center transform rotate-90" xmlns="http://www.w3.org/2000/svg"

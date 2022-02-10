@@ -1,11 +1,11 @@
 import React from "react";
 import './style.css';
-import Chatbox from './chat.js'
+import Chatbox from './Chat/chat.js'
 import Discription from "./Discription";
 import ProfileImg from "./profileImg";
-import ChatProctor from "./chatProctor";
+import ChatProctor from "./Chat/chatProctor";
 
-export default function SubjectModal({setshowModalEachChat}) {
+export default function SubjectModal({setshowModalEachChat }) {
   
   return (
     <>
@@ -20,7 +20,7 @@ export default function SubjectModal({setshowModalEachChat}) {
                 <div className="flex items-start justify-between 2xl:p-5 px-3 py-2  rounded-t">
 
                   <h3 className="  ">
-                  Candidate spot- Varification
+                  Candidate spot- Verification
                   </h3>
                   <button className="rounded closebtn px-2 text-red-500"
                     onClick={() => setshowModalEachChat(false)}
@@ -28,12 +28,12 @@ export default function SubjectModal({setshowModalEachChat}) {
                       × 
                   </button>
                 </div>
-                <div className='flex flex-row justify-between mx-3' >
-                <div className=' '>STD0745</div>
+                <div className='flex flex-row justify-between mx-5' >
+                <div className='mb-5'>STD0745</div>
                 <div className=' w-9/12 md:w-11/12 mt-3 mx-5 '><hr /> </div>
             </div>
                 {/*body*/}
-                                 <div className="relative px-5 grid grid-cols-1 lg:grid-cols-3 gap-8 ">   
+                <div className="relative px-5 grid grid-cols-1 lg:grid-cols-3 gap-8 ">   
                                  <div className="w-80  mb-4"><ProfileImg /></div>
                                  <div className="w-80 mb-4"><Discription /></div>
                                  <div className="w-80 mb-4 rounded-lg"> 

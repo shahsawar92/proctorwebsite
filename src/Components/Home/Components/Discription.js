@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 export default function Discription() {
   return <div className='disc  h-72 bg-e  rounded-xl '>
-          <div className="relative flex items-center justify-between  rounded-t-xl px-2 py-1 border-b border-gray-200 chathead  ">
+          <div className="relative flex items-center justify-between  rounded-t-xl px-3 py-1 border-b border-gray-200 chathead  ">
               <div className='text-xs'>System Provided</div>
             </div>
             {/* body */}
@@ -79,9 +79,9 @@ export default function Discription() {
             </div>
             <div className='mt-5'>
               <div className='font-bold text-xs'>Comment</div>
-              <div className='w-20 h-14 rounded-sm font-extralight text-gray-400 p-1 bg-white'>
-                mic is off
-              </div>
+              <textarea placeholder='write here.. ' className='w-24 h-14 rounded-sm border-none  font-extralight text-gray-400 px-1 outline-none bg-white'
+                
+              />
             </div>
               
            
