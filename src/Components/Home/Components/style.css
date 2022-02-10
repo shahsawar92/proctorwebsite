@@ -349,10 +349,7 @@ background-color: #FFE4BB;
     }
 
 
-    .sizeClass{
-        width: 50rem;
-        height: 25rem;
-    }
+  
 
     textarea { font-size: 12px; 
                 outline: none;
@@ -365,6 +362,11 @@ background-color: #FFE4BB;
                 box-shadow: none;
             
                 resize: none
+    } 
+    
+    .sizeClass{
+        width: 55rem;
+        height: 32rem;
     }
    
     @media only screen and (max-width: 600px) {

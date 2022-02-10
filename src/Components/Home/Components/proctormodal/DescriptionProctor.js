@@ -12,6 +12,7 @@ export default function DiscriptionProctor({setshowCameraModal}) {
                 <div className='col-span-2'>End: 10.30 </div>
                 <div className='col-span-4'>Time Remaining: 01:11 </div> 
             </div>
+            
             <div className='grid grid-cols-4 disc-t mt-4'>
            
             <button id='reject'  className=" popupclickbtn   disc text-white w-12 h-8  rounded">

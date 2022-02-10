@@ -37,9 +37,9 @@ export default function Card1({setshowModalProctor}) {
                 </div>
                 {/* camera-inputs */}
 
-                {selectedCard === 1 ? <CardView1 setshowModalProctor={setshowModalProctor} /> : null}
-                {selectedCard === 3 ? <CardView2  /> : null}
-                {selectedCard === 2 ? <CardView3   /> : null}
+                {selectedCard === 1 ? <CardView1 setshowModalProctor={setshowModalProctor}/> : null}
+                {selectedCard === 3 ? <CardView2 setshowModalProctor={setshowModalProctor}/> : null}
+                {selectedCard === 2 ? <CardView3 setshowModalProctor={setshowModalProctor}/> : null}
 
                 {/* footer */}
                 

@@ -9,9 +9,9 @@
     }
 
     @keyframes blink {
-        0% { box-shadow: 0 0 15px red; }
+        0% { box-shadow: 0 0 25px red; }
         50% { box-shadow: none; }
-        100% { box-shadow: 0 0 15px red; }
+        100% { box-shadow: 0 0 25px red; }
     }
     
     @-webkit-keyframes blink {

@@ -3,7 +3,7 @@ import { IoMdChatboxes } from 'react-icons/io';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 import '../style.css'
 
-export default function HeaderTwo({setshowModal,setshowModalProctor,setshowCameraModal}) {
+export default function HeaderTwo({setshowModal,setshowModalProctor}) {
     return (<>
     
     <div class="grid lg:grid-cols-5 grid-cols-1 gap-1 bg-white mx-2 my-2  pb-3 pt-5  rounded-lg px-2">
@@ -23,12 +23,12 @@ export default function HeaderTwo({setshowModal,setshowModalProctor,setshowCamer
       
             <div id="btn-3div" className='col-start-1 col-end-3 font-medium self-center'>
                 <b>Status</b>: 
-                <span onClick={()=>setshowCameraModal(true)} id="btn-3" style={{backgroundColor:'#54FFB4'}}  className='text-xs font-medium py-1 rounded-lg px-3 ml-2 '> IN-PROGRESS</span>
+                <span  id="btn-3" style={{backgroundColor:'#54FFB4'}}  className='text-xs font-medium py-1 rounded-lg px-3 ml-2 '> IN-PROGRESS</span>
             </div>
         
-            <div id="btn-4" className='text-yellow-900 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:py-3 lg:text-xs px-5  py-2 text-xs  text-center self-center'>Leave</div>
+            <div id="btn-4" className='text-yellow-900 cursor-pointer 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:py-3 lg:text-xs px-5  py-2 text-xs  text-center self-center'>Leave</div>
 
-            <div id="btn-5"   className='text-blue-400 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:ml-0 lg:py-3 lg:text-xs px-5  py-2 text-xs text-center self-center'> Break</div>
+            <div id="btn-5"   className='text-blue-400 cursor-pointer 2xl:py-2 rounded-lg 2xl:text-sm font-medium 2xl:px-7  lg:px-5  lg:ml-0 lg:py-3 lg:text-xs px-5  py-2 text-xs text-center self-center'> Break</div>
           
         </div>
           
